@@ -1,14 +1,13 @@
 import React from 'react'
 import Header from '../../Header/Header';
 import Footer from '../../Footer/Footer';
-import Row from '../../Row/Row';
+import Banner from '../../Banner/Banner';
 
 function Home() {
   return (
     <>
         <Header/>
-        <Row title="NETFLIX ORIGINAL"/>
-        <Row title="Trending Now"/>
+        <Banner />
         <Footer/>
     </>
   );
