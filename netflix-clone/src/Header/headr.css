@@ -1,15 +1,16 @@
 .header_outer_container{
-  position: sticky;
+  position: fixed;
   top: 0;
+  width: 100%;
+  z-index:1;
   display:  flex; 
   justify-content: center; 
   align-items: center;   
-  background-color: rgb(20,20,20);
-  background-color: transparent;
   height: 10vh;
   color: white;
   z-index: 1;
-  background-color: black;
+  transition: all 0.5s;
+  transition-timing-function: ease-in;
 }
 .header_container{
   width:90%;
@@ -38,3 +39,6 @@
   margin-left: 7vh;
   cursor: pointer;
 } 
+.header_outer_container_black{
+   background-color:#111 ;
+}
